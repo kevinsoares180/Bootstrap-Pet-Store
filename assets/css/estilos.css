@@ -1,0 +1,134 @@
+#paineis-sobre
+{
+    margin-top: 20px;
+}
+
+.thumbnail
+{
+    box-shadow:gray 1px 1px 15px 1px; 
+}
+.panel-title
+{
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 100ms;
+
+}
+.sobre:hover
+{
+    background-color: rgb(223, 223, 223);
+    
+   
+
+}
+#paineis-sobre {
+    margin-top:20px;
+}
+
+.titulo-depoimentos {
+    
+    max-width: 100%;
+    background-color: white;
+    box-shadow:gray 1px 1px 15px 1px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:black;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+.contato-select,
+.grupo-radio
+{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+html,
+body
+{
+    background-image: url("../img/paws.jpg");
+    
+    background-color: white;
+    height: 100%;
+}
+header{
+    background-image: url("/assets/img/dog-white-1.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 150%;
+    position: relative;
+}
+.banner
+{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    width: 50%;
+    border-radius: 80px 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+.botao
+{
+    margin-top: 15px;
+
+}
+.botao-menu
+{
+    max-width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+@media(min-width: 768px)
+{
+    #paineis-sobre
+    {
+        margin-top: 0px;
+  
+    }
+.projetos-responsivo
+{
+    
+    width: 50%;
+    float: left;
+}
+}
+.page-titles
+{
+    text-transform:uppercase;
+    font-size:x-large;
+    color: rgba(32, 32, 32, 0.9);
+    font-family:sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    border: 1px solid rgba(97, 97, 97, 0.3);
+    box-shadow:rgb(143, 143, 143) 1px 1px 15px 1px; 
+}
+.botao-menu:hover
+{
+    cursor: pointer;
+    background-color: rgb(0, 183, 255);
+    border: 1px solid rgb(0, 183, 255);;
+    transition: 1s;
+
+}
+footer{
+    margin-top: 10px;
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+}
+footer address:last-child{
+margin-bottom: 0;
+}
